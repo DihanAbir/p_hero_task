@@ -1,0 +1,25 @@
+section{
+    width: 50%;
+    margin: 0 auto;
+}
+.fonm_submit{
+    margin: 30px;
+    padding: 50px;
+    background-color: rgb(214, 108, 108);
+    border: 1px solid salmon;
+    border-radius: 10px;
+}
+input, select, button {
+    word-wrap: unset;
+    border: 2px solid #ff8a8a;
+    color: #736f6f;
+    width: 140px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    outline: none!important ;
+}
+input{
+    width: 212px!important;
+    padding: 20px;
+}
