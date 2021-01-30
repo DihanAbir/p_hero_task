@@ -13,7 +13,7 @@ function Sell5() {
             <h2>Token: {sellInfo.Sellwallet}</h2>
             <h2>Token: {sellInfo.IBN}</h2>
 
-            <button className='btn btn-success mt-5'> <h2>Succesfullly Done</h2> </button>
+            <button className='btn btn-success mt-5'> Succesfullly Done </button>
         </div>
         </div>
     );
