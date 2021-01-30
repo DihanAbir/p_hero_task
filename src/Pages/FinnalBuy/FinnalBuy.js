@@ -30,9 +30,10 @@ function FinnalBuy(props) {
         </h2>
         <h2>Wallet address:{formInput.walletAddress} </h2>
         <form method="post" action="/addReview" className="form-order" >
-        <button type="submit" onClick={handlerReview} className="mb-5 btn-main"><Link className="btn btn-success" to="/">
-            Confirm submission{" "}
-          </Link></button>
+        {/* <button type="submit" onClick={handlerReview} className="mb-5 btn-main"><Link className="btn btn-success" to="/">
+            Confirm submission
+          </Link></button> */}
+          <Link to='/'><button onClick={handlerReview} className='btn btn-success mt-5'> Succesfullly Done </button></Link>
         </form>
       </div>
   );

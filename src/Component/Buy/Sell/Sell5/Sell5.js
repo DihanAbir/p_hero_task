@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom';
 import { fromContext } from '../../../../App';
 
 function Sell5() {
@@ -13,7 +14,7 @@ function Sell5() {
             <h2>Token: {sellInfo.Sellwallet}</h2>
             <h2>Token: {sellInfo.IBN}</h2>
 
-            <button className='btn btn-success mt-5'> Succesfullly Done </button>
+            <Link to='/'><button className='btn btn-success mt-5'> Succesfullly Done </button></Link>
         </div>
         </div>
     );
